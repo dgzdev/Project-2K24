@@ -1,0 +1,52 @@
+{
+	"name": "Project-2K24",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$path": "Project/ReplicatedStorage",
+			"$ignoreUnknownInstances": true
+		},
+
+		"ServerScriptService": {
+			"$path": "Project/Server",
+			"$ignoreUnknownInstances": true
+		},
+
+		"ServerStorage": {
+			"$path": "Project/ServerStorage",
+			"$ignoreUnknownInstances": true
+		},
+
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"$path": "Project/Client",
+				"$ignoreUnknownInstances": true
+			},
+			"StarterCharacterScripts": {
+				"$path": "Project/Character",
+				"$ignoreUnknownInstances": true
+			}
+		},
+
+		"ReplicatedFirst": {
+			"$path": "Project/ReplicatedFirst",
+			"$ignoreUnknownInstances": true
+		},
+
+		"Workspace": {
+			"World": {
+				"$path": "Project/Workspace",
+				"$ignoreUnknownInstances": true
+			},
+			"$properties": {
+				"FilteringEnabled": true
+			}
+		},
+		"SoundService": {
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
+}
