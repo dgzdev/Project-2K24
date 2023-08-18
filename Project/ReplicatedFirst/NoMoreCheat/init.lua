@@ -18,12 +18,12 @@ local Defaults: AntiCheatOptions = {
 		Server = {
 			-- * Properties about how the server should work.
 			ServerChangesAreReplicated = false, --[[
-                --> This sends a message to client communicating that a Instance has been changed,
-                This allows the client to be in the same state as server, It is a good way to fix issues with server changing properties.
-                Can leak information to some exploiter, can be potential dangerous.
+				--> This sends a message to client communicating that a Instance has been changed,
+				This allows the client to be in the same state as server, It is a good way to fix issues with server changing properties.
+				Can leak information to some exploiter, can be potential dangerous.
 
-                -- ? You can make your own replicated changes with encrypted tokens, fixing the leaks.
-            ]]
+				-- ? You can make your own replicated changes with encrypted tokens, fixing the leaks.
+			]]
 			SuspiciousActivities = {
 				["INSTANCE_CHANGED"] = "KICK",
 				["INSTANCE_DESTROY"] = "KICK",
@@ -35,9 +35,9 @@ local Defaults: AntiCheatOptions = {
 		},
 		Client = {
 			ReportSuspiciousActivityToServer = true, --[[
-                --> Every time the client activity is suspicious, it will send a message to server.
-                If disabled, the client will just kick itself from the server.
-            ]]
+				--> Every time the client activity is suspicious, it will send a message to server.
+				If disabled, the client will just kick itself from the server.
+			]]
 			ReportKeys = {
 				["Instance Change"] = "INSTANCE_CHANGED",
 				["Instance Destroy"] = "INSTANCE_DESTROY",
